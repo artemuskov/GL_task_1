@@ -7,6 +7,6 @@ variable "bucket_name" {
     description = "bucker name"
 }
 
-resource "aws_S3_bucket" "test_bucket" {
+resource "aws_s3_bucket" "test_bucket" {
     bucket = var.bucket_name
 }
